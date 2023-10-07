@@ -2,7 +2,7 @@
 
 The main preference of this project is the paper “An online portfolio selection algorithm using clustering approaches and considering transaction costs” (2020) written by Majid Khedmati and Pejman Azin.
 
-I discovered that this famous model has a huge drawback. 
+I discovered that this famous algorithm has a huge drawback. 
 The historical data is the closing price of stocks. 
 Suppose that you must optimize your portfolio on day n to get the return on day n+1, so you want to predict the relative price of day n. 
 To do that, you need to use the data from day i to day n. 
