@@ -13,6 +13,7 @@ After that, you cannot trade, so you cannot use this model to get the return on 
 I improved the model. 
 To predict the relative price of day n+1, I use only the data from day i to day n-1. 
 Therefore, I can trade at day n to get the return at day n+1.
+Of course, my pattern matching algorithm is differnt from theirs.
 
 Additionally, my model has some other improvements. 
 First, I created a stock filter by statistical techniques such as a stationary test and a heavy-tailed-distribution test for risk reduction. 
