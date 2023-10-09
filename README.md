@@ -16,7 +16,7 @@ Therefore, I can trade at day n to get the return at day n+1.
 Of course, my pattern matching algorithm is differnt from theirs.
 
 Additionally, my model has some other improvements. 
-First, I created a stock filter by statistical techniques such as a stationary test and a heavy-tailed-distribution test for risk reduction. 
+First, I created a stock filter by statistical techniques such as the ADF test and a heavy-tailed-distribution test for risk reduction. 
 Second, I added cash to the portfolio, so if the predicted returns of all stocks are negative, the portfolio can hold full cash.
 
 I hope this model is useful to you. Please feel free to ask if you have any questions.
